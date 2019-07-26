@@ -1,0 +1,156 @@
+<html>
+	<head>
+		<title>
+			Askar Kuvanychbekov
+		</title>
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+		<link rel="stylesheet" href="phone.css">
+		<link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	</head>
+
+
+
+	<body>
+
+		<div id="top_div">
+				<div id="switch_font">
+					<a href="index-large.html"> Large Text Mode</a>  
+				</div>
+				<div class="tabs" id="tabs_div">
+					<button class="tabButtons pure-button active" id="dialer" value="dialer">
+						Dialer
+					</button>
+					<button class="tabButtons pure-button" id="contactList" value="contactList">
+						Contact List
+					</button>
+					<button class="tabButtons pure-button" id="addContact" value="addContact">
+						Add Contact
+					</button>
+					<button class="tabButtons pure-button" id="aboutProject" value="aboutProject">
+						About Project
+					</button>
+				</div>
+
+				<div class="main_body" id="main">
+					<div class="content" id="content_dialer">
+						<h2>
+							<label for="dial_number">Dialer</label>
+						</h2>
+						<form class="pure-form pure-form-stacked form-name">
+							<input id="dial_number">
+						</form>
+						<div id="dialTable_div">
+							<table id="dial_table">
+								<tr class="dial_row">
+									<td><button class="dial_btn pure-button" id="dial_1" value="1">1</button></td>
+									<td><button class="dial_btn pure-button" id="dial_2" value="2">2</button></td>
+									<td><button class="dial_btn pure-button" id="dial_3" value="3">3</button></td>
+								</tr>
+								<tr class="dial_row">
+									<td><button class="dial_btn pure-button" id="dial_4" value="4">4</button></td>
+									<td><button class="dial_btn pure-button" id="dial_5" value="5">5</button></td>
+									<td><button class="dial_btn pure-button" id="dial_6" value="6">6</button></td>
+								</tr>
+								<tr class="dial_row">
+									<td><button class="dial_btn pure-button" id="dial_7" value="7">7</button></td>
+									<td><button class="dial_btn pure-button" id="dial_8" value="8">8</button></td>
+									<td><button class="dial_btn pure-button" id="dial_9" value="9">9</button></td>
+								</tr>
+								<tr class="dial_row">
+									<td><button class="dial_btn pure-button" id="dial_star" value="*">*</button></td>
+									<td><button class="dial_btn pure-button" id="dial_0" value="0">0</button></td>
+									<td><button class="dial_btn pure-button" id="dial_hashtag" value="#">#</button></td>
+								</tr>
+							</table>
+							<table id="dial_table">
+								<tr class="dial_row_action">
+									<td><button class="dial_btn_action pure-button" id="dial_dial">Dial</button></td>
+									<td><button class="dial_btn_action pure-button" id="dial_clear">Clear</button></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="content" id="content_contactList">
+						<h2>
+							<label for="name">Contact List</label>
+						</h2>
+						<button class="list_btn pure-button">Robert Drake</button>
+						<button class="list_btn pure-button">Emma Frost</button>
+						<button class="list_btn pure-button">Doreen Green</button>
+						<button class="list_btn pure-button">Jean Grey</button>
+						<button class="list_btn pure-button">James Howlett</button>
+						<button class="list_btn pure-button">Ororo Munroe</button>
+						<button class="list_btn pure-button">Katherine Pryde</button>
+						<button class="list_btn pure-button">Piotr Rasputin</button>
+						<button class="list_btn pure-button">Scott Summers</button>
+						<button class="list_btn pure-button">Kurt Wagner</button>
+						<button class="list_btn pure-button">Warren Washington</button>
+						<button class="list_btn pure-button">Charles Xavier</button>
+					</div>
+					<div class="content" id="content_addContact">
+						<h2>
+							<label for="name">Add Contact</label>
+						</h2>
+						<div id="addContact_div">
+							<form class="pure-form pure-form-stacked">
+
+								<div class="add_row">
+										<label for="add_name">Name</label>
+										<input class="add_input" id="add_name" placeholder="Jane Smith">
+								</div>
+								<div class="add_row">
+										<label for="add_phone">Phone Number</label>
+										<input class="add_input" id="add_phone" placeholder="123-456-7890">
+								</div>
+								<div class="add_row">
+										<label for="add_email">Email Address</label>
+											<input class="add_input" id="add_email" placeholder="jane.smith@colorado.edu">
+								</div>
+							</form>
+							<table id="add_table">
+								<tr class="add_row">
+									<td><button class="add_btn pure-button" id="add_add">Add Contact</button></td>
+									<td><button class="add_btn pure-button" id="add_clear">Clear</button></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="content" id="content_aboutProject">
+						<h2>
+							<label for="name">About This Project</label>
+						</h2>
+						<div id="project_div">
+							<h3> What I learned? </h3>
+								<p> Blafasfjsakjfagskfasfhgsakhfgsak
+								ahfkjsahfkajshf
+								lkajhsfkjasf
+								kjahsf 
+								</p>
+							<h3> Interesting Issues </h3>
+								<p> Blafasfjsakjfagskfasfhgsakhfgsak
+								ahfkjsahfkajshf
+								lkajhsfkjasf
+								kjahsf 
+								</p>								
+						</div>
+					</div>
+				</div>
+
+				<div id="trackpad_div">
+					<h3 id="trackpad_label">
+						Swipe left/right to change tab
+					</h3>
+					<div id="trackpad"></div>
+				</div>
+
+		</div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="phone.js"></script>
+
+	</body>
+</html>

@@ -1,4 +1,4 @@
-li
+#content_contactList li
 {
 	display: inline;
 }
@@ -24,7 +24,7 @@ li
 
 #main
 {
-	height: 580px;
+	height: 700px;
 }
 
 .tabs

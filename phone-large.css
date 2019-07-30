@@ -1,4 +1,4 @@
-li
+#content_contactList li
 {
 	display: inline;
 }
@@ -24,7 +24,7 @@ li
 
 #main
 {
-	height: 580px;
+	height: 700px;
 }
 
 .tabs
@@ -80,7 +80,7 @@ li
 }
 .list_btn
 {
-	background-color: LightSkyBlue;
+	background-color: white;
 	border-radius: 8px;
 }
 
